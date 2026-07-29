@@ -1,0 +1,11 @@
+langchain
+ollama
+pandas
+pydentic
+fastapi
+streamlit
+requests
+fitz
+json
+sentence_transformers
+langchain-cumminity
