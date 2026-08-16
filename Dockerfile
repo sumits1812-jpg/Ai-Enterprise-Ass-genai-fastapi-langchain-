@@ -8,5 +8,5 @@ RUN pip install -r requirements.txt
 
 COPY ..
 
-CMD["streamlit", "run", "sql_smlt.py", "--server.port=8501", "--server.address=0.0.0.0"]
+CMD["sh","-c",uvicorn sqlfastapi:app --host0.0.0.0 --port${PORT:-8000}"]
 
